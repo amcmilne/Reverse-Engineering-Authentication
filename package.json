@@ -1,28 +1,25 @@
 {
-  "name": "Reverse-Engineering-Authentication",
+  "name": "1-Passport-Example",
   "version": "1.0.0",
-  "description": "```\r AS A developer",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amcmilne/Reverse-Engineering-Authentication.git"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amcmilne/Reverse-Engineering-Authentication/issues"
-  },
-  "homepage": "https://github.com/amcmilne/Reverse-Engineering-Authentication#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
     "fs": "0.0.1-security",
+    "mysql2": "^1.6.5",
     "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
     "path": "^0.12.7",
-    "sequelize": "^6.5.0"
+    "sequelize": "^5.22.3"
   }
 }
