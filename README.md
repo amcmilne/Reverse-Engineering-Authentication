@@ -53,7 +53,9 @@ SO THAT I can use it as a starting point for a new project
 ## Google Docs
 ## https://docs.google.com/document/d/1Q9PhjgP1sXGOS0QtnpOhWUZXh7j_anOSONIcTlhMfEk/edit?usp=sharing
 
-
+<img src= ./img/pg1.1.png>
+<img src= ./img/pg2.png>
+<img src= ./img/pg3.png>
  
  ## License: 
  * MIT
