@@ -29,9 +29,9 @@ SO THAT I can use it as a starting point for a new project
     * `members.html` contains html for members page
     * `signup.html` contains html for user signup
 * The `routes` folder contains `api-routes.js` and `html-routes.js`
-        * `api-routes.js` requires the models and passport.  If the user has valid credentials, and directs them to the members page, otherwise it routes them to signup.  The password is hashed for security.  Then the user is logged in.  There is also a GET route to log out the user.  There is also a GET to retrieve data to determine if user is signed in.  If not an empty object is returned, if so, the username and id is returned.
-        * `html-routes.js` requires path and isAuthenticated.js. There will be a GET to redirect users to the members page if they already have a username and password from the login page.  There is also a GET to redirect users to the members page if they have a valid username and password from the sign up page.  If the user does not have a valid username and password, they will be redirected to the signup page.    
-* `server.js` requires npm packages (listed), sets up ports requiring models, creates express routes and configures middleware, uses sessions to keep track of login status, requires our routes, and syncs to the database.  
+  *  `api-routes.js` requires the models and passport.  If the user has valid credentials, and directs them to the members page, otherwise it routes them to signup.  The password is hashed for security.  Then the user is logged in.  There is also a GET route to log out the user.  There is also a GET to retrieve data to determine if user is signed in.  If not an empty object is returned, if so, the username and id is returned.
+   * `html-routes.js` requires path and isAuthenticated.js. There will be a GET to redirect users to the members page if they already have a username and password from the login page.  There is also a GET to redirect users to the members page if they have a valid username and password from the sign up page.  If the user does not have a valid username and password, they will be redirected to the signup page.    
+  * `server.js` requires npm packages (listed), sets up ports requiring models, creates express routes and configures middleware, uses sessions to keep track of login status, requires our routes, and syncs to the database.  
 
 ## GETTING STARTED: 
 
